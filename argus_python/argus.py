@@ -4,8 +4,8 @@ import json
 import socket
 from typing import Dict, Optional
 
-from event_bus import EventBus
-from helpers import Helpers
+from .event_bus import EventBus
+from .helpers import Helpers
 
 
 class Argus:
