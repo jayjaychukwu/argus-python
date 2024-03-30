@@ -11,7 +11,7 @@ pip install argus-python
 Usage -
 
 ```py
-from argus import Argus
+from argus_python import Argus
 ```
 
 Have a class to define the function to be called when you receive an Argus Event

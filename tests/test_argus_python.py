@@ -7,7 +7,7 @@ import unittest
 
 from click.testing import CliRunner
 
-from argus_python import argus, cli
+from argus_python import Argus, cli
 
 
 class TestArgus_python(unittest.TestCase):
