@@ -35,3 +35,9 @@ argus = Argus()  # Optionally you can pass the host and port, and auth credentia
 argus.subscribe(subscriber, "on_event")
 argus.connect()
 ```
+
+You can also set a timeout for how long you wish to wait for data
+
+```py
+argus.connect(timeout=60)
+```

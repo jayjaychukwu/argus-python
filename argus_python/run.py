@@ -20,4 +20,5 @@ subscriber = Testsub()
 argus = Argus()  # Optionally you can pass the host and port, and auth credentials inclusive.
 
 argus.subscribe(subscriber, "on_event")
-argus.connect()
+argus.connect(timeout=60)
+argus.close()
